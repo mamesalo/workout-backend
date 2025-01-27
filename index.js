@@ -14,7 +14,7 @@ app.use("/activities", activitiesRoute);
 app.use("/user", userRoute);
 
 app.get("/", (req, res) => {
-  return res.status(234).send("Welcome To MERN Stack Tutorial");
+  return res.status(200).send("Welcome To MERN Stack Tutorial");
 });
 
 mongoose
